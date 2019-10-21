@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   my-runtime-bundle:
   - apiVersion: v1
-    created: 2019-10-21T16:30:33.58095563+08:00
+    created: 2019-10-21T17:20:48.142811017+08:00
     description: A Helm chart for Kubernetes
-    digest: 3d39f1f09642b71c579244f1a685ada427dc75520c6f97295092aa7ed74f2798
+    digest: eb564be84559be6dac898eda22a875797baf5886200dd1df6533823f9dc21aaa
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
     name: my-runtime-bundle
     urls:
-    - https://smilezmh.github.io/helm-repo/my-runtime-bundle-0.1.0.tgz
+    - http://smilezmh.github.io/helm-repo/my-runtime-bundle-0.1.0.tgz
     version: 0.1.0
-generated: 2019-10-21T16:30:33.580569405+08:00
+generated: 2019-10-21T17:20:48.142141555+08:00
