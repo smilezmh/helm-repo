@@ -42,7 +42,7 @@ javaOpts:
   xms: 512m
   other: -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Dsun.zip.disableMemoryMapping=true -XX:+UseParallelGC -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90
 image:
-  repository: activiti-runtime-bundle-custom
+  repository: activiti-runtime-bundle
   tag: 0.0.1-SNAPSHOT
   pullPolicy: IfNotPresent
 service:
@@ -90,3 +90,4 @@ ingress:
     nginx.ingress.kubernetes.io/enable-cors: "true"
     nginx.ingress.kubernetes.io/cors-allow-headers: "X-Forwarded-For, X-Forwarded-Proto, X-Forwarded-Port, X-Forwarded-Prefix,DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,X-CSRF-Token,Access-Control-Request-Headers,Access-Control-Request-Method,accept,Keep-Alive"
     nginx.ingress.kubernetes.io/x-forwarded-prefix: "true"
+
